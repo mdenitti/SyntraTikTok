@@ -30,6 +30,7 @@ $query_result = mysqli_fetch_assoc(mysqli_query($conn,$query));
                             <div class="form-group">
                                 <label>username</label>
                                 <input type="text" class="form-control" name="username" value="<?PHP echo $query_result['name']?>" required>
+                                Hier geef ik onzichtbaar ook de id mee aan het posten van ons formulier naar editpost.php
                                 <input type="hidden" name="id" value="<?php echo $query_result['id']?>">
                            </div>
                             <div class="form-group">
